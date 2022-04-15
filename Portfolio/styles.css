@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+#container {
+    margin: 20px 40px;
+
+}
+
+body{
+    background-color: #fcac35; 
+    background-image: url(img/swrilbg.png);
+    background-size: contain;
+}
+
+#bg {
+    display: grid;
+    background-color: transparent;
+}
+
+#purple {
+    display: block;
+    background-color: #8b008b;
+    background-image: url(img/flowerbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 40px 40px 40px;
+    margin-bottom: 30px;
+    filter: drop-shadow(20px 20px #de9105);
+    max-width: 2100px;
+    min-width: 800px;
+    width: 94%;
+    max-height: 640px;
+    min-height: 200px;
+    height: 90%;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+
+
+#logo {
+    background-color: #ed0e7e;
+    margin: 0px 20px 0px 30px;
+    max-height: 640px;
+    min-height: 200px;
+    height: 90%;
+    width: auto;
+    border-radius: 50px;
+    
+
+}
+
+#headers {
+    display: block;
+    background-color: #f7007b;
+    height: 110px;
+    filter: drop-shadow(20px 20px #de9105);
+    margin-top: 80px;
+    padding: 0px 40px;
+    max-width: 2100px;
+    min-width: 800px;
+    width: 94%;
+    border-radius: 40px;
+}
+
+#about {
+    display: block;
+    background-color: transparent;
+    max-width: 2100px;
+    min-width: 800px;
+    padding: 3px;
+    margin: 0px 60px;
+    width: 94%;
+    max-height: 500px;
+    height: auto;
+    text-align: center;
+}
+
+#portfolio {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%;
+    background-color: #8b008b;
+    background-image: url(img/flowerbg.png);
+    background-size: cover;
+    margin: 50px 0px;
+    padding: 20px 40px;
+    filter: drop-shadow(20px 20px #de9105);
+    max-width: 2100px;
+    min-width: 800px;
+    width: 94%;
+    max-height: 850px;
+    height: 90%;
+    text-align: left;
+    border-radius: 40px;
+}
+
+#other {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #8b008b;
+    background-image: url(img/flowerbg.png);
+    background-size: cover;
+    margin: 50px 0px;
+    padding: 20px 40px;
+    filter: drop-shadow(20px 20px #de9105);
+    max-width: 2100px;
+    min-width: 800px;
+    width: 94%;
+    max-height: 850px;
+    height: 90%;
+    text-align: left;
+    border-radius: 40px;
+}
+
+#contact{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #8b008b;
+    background-image: url(img/flowerbg.png);
+    background-size: cover;
+    margin-top: 50px;
+    padding: 20px 40px;
+    max-width: 2100px;
+    min-width: 800px;
+    width: 94%;
+    max-height: 550px;
+    height: 90%;
+    border-radius: 40px;
+    filter: drop-shadow(20px 20px #de9105);
+    
+}
+
+
+nav {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    background-color: transparent;
+    text-align: left;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    word-spacing: 2em;
+    margin-left: 50px;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: #f7bc39;
+}
+
+
+.logo {
+    max-width: 1200px;
+    min-width: 600px;
+    width: 100%;
+    text-align: center;
+    float: center;
+}
+
+
+h2 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48pt;
+
+}
+
+h3 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35pt;
+    margin: 20px;
+}
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0px;
+    font-size: 16pt;
+    max-width: 650px;
+    min-width: 400px;
+    width: 100%;
+    font-size-adjust: auto;
+    word-spacing: 0.5em;
+}
+
+.footerp{
+    color: white;
+    opacity: 0.7;
+    font-family: sans-serif;
+    font-size: 10pt;
+    text-align: right;
+    margin-top: 70px;
+    word-spacing: 0.2em;
+    
+}
+
+img{
+    max-width: 1200px;
+    width: 100%;
+}
+
+a img {
+    max-width: 750px;
+    width: 90%;
+    filter: drop-shadow(20px 20px #641964);
+    margin: 20px;
+}
+
+#smalllogo {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.smalllogo {
+    max-width: 430px;
+    min-width: 430px;
+    width: 100%;
+    margin: 5px;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 90%;
+    height: 90px;
+    width: 98%;
+    background-color: transparent;
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+    padding: 5px;
+    margin: 0px;
+}
+
+
+.button {
+    width: 100px;
+    float: right;
+}
+/* Dropup Button */
+.dropbtn {
+    background-color: transparent;
+    padding: 16px;
+    border: none;
+    width: 100px;
+    height: 90px;
+    background-image: url(img/button.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    filter: drop-shadow(5px 5px #e2ae51);
+}
+
+/* The container <div> - needed to position the dropup content */
+.dropup {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+/* Dropup content (Hidden by Default) */
+.dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropup */
+.dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Change color of dropup links on hover */
+.dropup-content a:hover {background-color: #face8c}
+
+/* Show the dropup menu on hover */
+.dropup:hover .dropup-content {
+    display: block;
+}
+
+/* Change the background color of the dropup button when the dropup content is shown */
+.dropup:hover .dropbtn {
+  background-image: url(img/button2.png);
+  filter: drop-shadow(5px 5px #e2ae51);
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15pt;
+    
+}
+
+input[type=submit] {
+  background-color: #f7007b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  box-sizing: border-box;
+
+}
+
+input[type=submit]:hover {
+  background-color: #d10169;
+  box-sizing: border-box;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+  max-width: 1500px;
+  width: 90%;
+  box-sizing: border-box;
+  border-radius: 40px;
+  margin: 20px 0px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  box-sizing: border-box;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 25px;
+  box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  box-sizing: border-box;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+    box-sizing: border-box;
+  }
+}
